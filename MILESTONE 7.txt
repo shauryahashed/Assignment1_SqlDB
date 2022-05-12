@@ -1,4 +1,4 @@
-//MILESTONE 1
+//MILESTONE 1//
 //TABLE CREATION
 //Create Database Schema to support the above-mentioned use case and create the tables as shown above
 
@@ -6,7 +6,7 @@ create table TeamDetails (S_No INT, TeamName  VARCHAR(255) PRIMARY KEY,Captain V
 create table fixtures (match_no int primary key ,home_team VARCHAR(50),away_team VARCHAR(50),venue VARCHAR(50),Team_won VARCHAR (50),Team_lost VARCHAR (50));
 create table points (Team_name VARCHAR (50) primary key, no_of_wins int , no_of_loss int ,point int );
 
-//MILESTONE 2
+//MILESTONE 2//
 //Adding CSV file into POSTGRESQL
 COPY TeamDetails FROM 'C:\Users\Public\team-details.csv' DELIMITER ',' CSV HEADER;
 select * from TeamDetails;
